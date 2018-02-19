@@ -87,6 +87,19 @@ a {
 	color:  #4B0082;
 }
 
+#mySkis {
+	font-size: 1.2em;
+	font-style: italic;
+	color:  #4B0082;
+}
+
+.ski-choice {
+	font-size: 1.5em;
+	font-style: italic;
+	/* color:  #4B0082; */
+	color:  white;
+}
+
 .button {
 		font-size: 1.2em;
 	font-style: italic;

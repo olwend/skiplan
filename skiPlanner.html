@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="./skiPlanner.css" media="screen"/>
@@ -21,7 +22,7 @@
 			</ul>
 		</p>
 
-	<div id="choices-dialog">
+	<div class="ski-choice">
 		<h2 class="choice"> Getting to your resort - Transport preference?</h2>
 		<dialog id="favDialog">
 				<form method="dialog">
@@ -46,7 +47,7 @@
 		</menu>
 	</div>
 
-	<div id=choices-select-box>
+	<div class="ski-choice">
 		<h2 class="choice"> Getting moving ...Ski equipment choices? </h2>
 				<a href="https://www.wedze.co.uk/advice/choosing-skis-are-right-you-a_20934"> Ski considerations </a>
 				<br/><br/>
@@ -59,12 +60,25 @@
 		</select>
 	</div>
 
+	<div class="ski-choice">
+		<label for="mySkis">Choose your ski type:</label>
+		<input list="Skis" id="mySkis" name="mySkis" />
+		<datalist id="Skis">
+			<option value="All mountain">All Mountain - powder hound seeking adventure off piste</option>
+			<option value="Short turns"> Slalom - Short technical turns on piste</option>
+			<option value="Giant slalom"> GS - High speed long carving turns on ice</option>
+			<option value="Free Style"> You spend most time in parks and half pipes</option>
+		</datalist>
+	</div>
+
 	<div class="costs-table">
 		<table em>
 			<caption> Summary Trip costs and Planning links</caption>
 			<thead>
 				<tr>
-					<th colspan="4">Last updated 16/02/2018</th>
+					<th colspan="4"><p>Last updated <time
+ 					 datetime="2018-02-19T19:00"></time>Feb 19</p></th>
+
 				</tr>
 				<tr>
 					<td colspan="2">Category</td>
@@ -132,7 +146,7 @@
 					<td></td>
 				</tr>
 				<tr>
-					<td rowspan="2">Luxury Items</td>
+					<td rowspan="2">Discretionary Items</td>
 					<td>Spa treatments</td>
 					<td>zillions</td>
 					<td></td>

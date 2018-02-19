@@ -1,10 +1,10 @@
 ## Html and CSS page
 
-Illustrates: 
+Illustrates:
  - Appropriate naming:
       - Classes for items that will be reused
-      - ID on unique items. 
+      - ID on unique items.
  - HTML elements
- - Sematic element (table) 
- - JS items fpr selectors (WIP - pre styling)
- - CSS styling set up on elements and classes
+ - Alternative implementations for drop down list (JS and HTML5)
+ - JS items fpr selectors
+ - CSS styling set up on elements ,classes and IDs
