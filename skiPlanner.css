@@ -1,23 +1,20 @@
 body {
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 20px;
-	background-color: #E6E6FA;
-/* 	border:  20px;
-	border-color: #808000; */
+	font-size: 1.5em;
+	background-color:#87CEFA ;
 	background: url(./mountainview.jpg);
 	background-size: 3000px 1800px;
+	overflow:  scroll;
 }
 
 table {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	font-weight: bold;
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	table-layout: fixed;
 	width: 100%;
 	border-collapse: collapse;
-	/* border: 3px solid black; */
-
 }
 
 caption {
@@ -30,18 +27,14 @@ th {
 ]
 tbody td {
 	color:  white;
-	font-size: 1em;
 	text-shadow: 1px 1px 1px black;
 	border:  20px;
-	/* border-color: #808000; */
 }
 
 thead {
 	background-color:
 	color: white;
-	border: 3px solid black;
-	/* border-color: #808000; */
-	/* color: #191970; */
+	border: 2px solid black;
 	letter-spacing: 2px;
 	text-align: left;
 }
@@ -60,26 +53,51 @@ h1 {
 	}
 
 .choice {
-	color:#4B0082;
-	/* border:  2px solid #556B2F; */
+	color:  white;
+	margin-bottom: 20px;
 }
 
 a {
-	font-size: 24px;
+	font-size: 1.2em;
 	color: #4B0082
+	margin-bottom: 10px;
 	font-weight: bold;
 }
 
-.favDialog {
-		position: relative;
-		top: 65px;
-		left: 65px;
+#favDialog {
+		position: absolute;
+		top: 350px;
+		left: 100px;
+		background-color:#87CEFA ;
 	}
+#favTravel {
+	font-size: 1.2em;
+	font-style: italic;
+	color:  #4B0082;
+}
+#updateDetails {
+	font-size: 1.2em;
+	font-style: italic;
+	color:  #4B0082;
+}
 
+#ski-ddown {
+	font-size: 1.2em;
+	font-style: italic;
+	color:  #4B0082;
+}
+
+.button {
+		font-size: 1.2em;
+	font-style: italic;
+	color:  #4B0082;
+
+}
 .costs-table {
 	border:  2px solid #808000;
 	color: :#556B2F;
 	line-height: 2em;
+	margin-top: 20px;
 }
 
 .plan-text {
