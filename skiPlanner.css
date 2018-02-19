@@ -1,0 +1,87 @@
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	background-color: #E6E6FA;
+/* 	border:  20px;
+	border-color: #808000; */
+	background: url(./mountainview.jpg);
+	background-size: 3000px 1800px;
+}
+
+table {
+	font-size: 1.3em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	/* border: 3px solid black; */
+
+}
+
+caption {
+	background-color:#87CEFA ;
+}
+
+th {
+	font-size: 0.5em;
+}
+]
+tbody td {
+	color:  white;
+	font-size: 1em;
+	text-shadow: 1px 1px 1px black;
+	border:  20px;
+	/* border-color: #808000; */
+}
+
+thead {
+	background-color:
+	color: white;
+	border: 3px solid black;
+	/* border-color: #808000; */
+	/* color: #191970; */
+	letter-spacing: 2px;
+	text-align: left;
+}
+td {
+	padding: 10px;
+	letter-spacing: 1px;
+	border:  2px solid black;
+}
+
+li {
+	font-size: 1em;
+}
+
+h1 {
+	color: #4B0082;
+	}
+
+.choice {
+	color:#4B0082;
+	/* border:  2px solid #556B2F; */
+}
+
+a {
+	font-size: 24px;
+	color: #4B0082
+	font-weight: bold;
+}
+
+.favDialog {
+		position: relative;
+		top: 65px;
+		left: 65px;
+	}
+
+.costs-table {
+	border:  2px solid #808000;
+	color: :#556B2F;
+	line-height: 2em;
+}
+
+.plan-text {
+	font-style: italic;
+}

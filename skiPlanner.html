@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./skiPlanner.css" media="screen"/>
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Open+Sans" rel="stylesheet">
+	<title>skiplan</title>
+</head>
+
+<body>
+	<div class="plan-text">
+		<h1>Hit the pistes ... plan your snow adventure here</h1>
+		<p>So you know your own habits ...
+			<ul>
+				<li>Are you a people watcher relishing slow journeys with stopping off points?</li>
+				<li>Like your Bircher and fresh coffee 6.30am, ready for first lift up mountain?</li>
+				<li>Group involves mixed abilities - so need varied resort with meeting points</li>
+				<li>Ski? Yes I ski from one sunterrace to another</li>
+				<li>Want to spend time taking in local the culture and history aswell as the outdoors?</li>
+				<li>Like to break your trip up with a multi stage adventure?</li>
+			</ul>
+		</p>
+
+	<div id="choices-dialog">
+		<h2 class="choice"> Transport preference?</h2>
+		<dialog id="favDialog">
+				<form method="dialog">
+				<section>
+					<p><label for="favTravel">Preferred Transport:</label>
+						<select id="favTravel">
+						<option></option>
+						<option>Euro Star</option>
+						<option>Self Drive</option>
+						<option>Budget airline</option>
+						<option>High class airline</option>
+						</select></p>
+				</section>
+					<menu>
+						<button id="cancel" type="reset">Cancel</button>
+						<button type="submit">Confirm</button>
+					</menu>
+				</form>
+		</dialog>
+		<menu>
+			<button id="updateDetails">Choose Transport</button>
+		</menu>
+	</div>
+
+	<div id=choices-select-box>
+		<h2 class="choice"> Ski equipment choices? </h2>
+				<a href="https://www.wedze.co.uk/advice/choosing-skis-are-right-you-a_20934"> Ski considerations </a>
+
+		<select name="ski choice" multiple="">
+			<option value="All mountain">All Mountain - powder hound seeking adventure off piste</option>
+			<option value="Short turns"> Slalom - Short technical turns on piste</option>
+			<option value="Giant slalom"> GS - High speed long carving turns on ice</option>
+			<option value="Free Style"> You spend most time in parks and half pipes</option>
+		</select>
+	</div>
+
+	<div class="costs-table">
+		<table em>
+			<caption>Trip costs and suggestions</caption>
+			<thead>
+				<tr>
+					<th colspan="4">Last updated 16/02/2018</th>
+				</tr>
+				<tr>
+					<td colspan="2">Category</td>
+					<td colspan="2">Options</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Item</td>
+					<td>Approximate Cost</td>
+					<td>See more....</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="4">Transport</td>
+					<td>Train</td>
+					<td>£150</td>
+					<td><a href="https://www.trainline.eu"> Trains to resort</a></td>
+				</tr>
+				<tr>
+					<td>Self drive</td>
+					<td>£400 a car</td>
+					<td><a href="https://www.skiclub.co.uk/info-and-advice/travelling-to-resort/driving-to-resort"> Tips for driving </a></td>
+				</tr>
+				<tr>
+					<td>By Air</td>
+					<td>£250 pp</td>
+					<td><a href="https://www.skyscanner.net/"> Flight Search Engine </a></td>
+				</tr>
+				<tr>
+					<td>Transfers to Resort</td>
+					<td>£150 pp</td>
+					<td><a href="http://www.3vt.co.uk/"> Trois Vallees taxi</a></td>
+				</tr>
+				<tr>
+					<td rowspan="3">Accomodation</td>
+					<td>Hotel</td>
+					<td>zillions</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Chalet</td>
+					<td>scrumptious</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Self Catering</td>
+					<td>Pack your cookbook</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td rowspan="3">On the mountain </td>
+					<td>Ski pass</td>
+					<td></td>
+					<td></td>
+					</tr>
+				<tr>
+					<td>Ski hire</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Food out and about</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+<script src="./skiPlanner.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
+</html>
