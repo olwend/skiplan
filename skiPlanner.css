@@ -52,9 +52,29 @@ h1 {
 	color: #4B0082;
 	}
 
+.blog-post {
+	background-color: gray;
+	font-size: 1em;
+	border: 2px solid black;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	width: 20%;
+	float:  right;
+	margin-right: 5%;
+	height:  0;
+	padding-bottom: 30%;
+}
+
 .choice {
 	color:  white;
 	margin-bottom: 20px;
+}
+
+.contact-details {
+	font-size: 1em;
+	font-style: italic;
+	padding-bottom: 10px;
 }
 
 a {
@@ -71,24 +91,24 @@ a {
 		background-color:#87CEFA ;
 	}
 #favTravel {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
 }
 #updateDetails {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
 }
 
 #ski-ddown {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
 }
 
 #mySkis {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
 }
@@ -101,7 +121,7 @@ a {
 }
 
 .button {
-		font-size: 1.2em;
+	font-size: 1.2em;
 	font-style: italic;
 	color:  #4B0082;
 
