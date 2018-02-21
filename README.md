@@ -1,4 +1,9 @@
-## Html and CSS page
+## Html and CSS page WIP - PURELY HTML/CSS try out of elements. 
+
+## TO DO
+- responsive design to be built up
+- rewrite CSS with Sass
+       
 
 Illustrates:
  - Appropriate naming:
