@@ -1,9 +1,10 @@
 body {
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 1.5em;
-	background-color:#87CEFA ;
-	background: url(./mountainview.jpg);
-	background-size: 3000px 1800px;
+	background: #87CEFA url(./mountainview.jpg) no-repeat;
+/* 	background-color:#87CEFA;
+	background: url(./mountainview.jpg); */
+	background-size: 3000px 3000px;
 	overflow:  scroll;
 }
 
@@ -49,7 +50,7 @@ li {
 }
 
 h1 {
-	color: #4B0082;
+	color: white;
 	}
 
 .blog-post {
@@ -135,4 +136,9 @@ a {
 
 .plan-text {
 	font-style: italic;
+}
+
+img, embed,
+object, video {
+	max-width:  100%;
 }

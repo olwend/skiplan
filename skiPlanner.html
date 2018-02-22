@@ -4,10 +4,12 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="./skiPlanner.css" media="screen"/>
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Open+Sans" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>skiplan</title>
 </head>
 
 <body>
+	<!--  blog boxes to float -->
 	<div class="blog-post">
 		<h2> Blog 1 to float </h2>
 			<p>
@@ -22,6 +24,7 @@
 			</p>
 	</div>
 
+<!-- intro text  -->
 	</div>
 	<div class="plan-text">
 		<h1>Hit the pistes ... plan your snow adventure here</h1>
@@ -36,6 +39,7 @@
 				<li>Like to break your trip up with a multi stage adventure?</li>
 			</ul>
 		</p>
+<!-- input form  -->
 	<div class="contact-details">
 		<p>Enter details below for a callback...</p>
 		<input class="contact-details" type="text" name="First name" placeholder="First name">
@@ -44,6 +48,7 @@
 		<input class="contact-details" type="email" name="Email" placeholder="Email">
 	</div>
 
+<!-- Illustration of dialog pop up with drop down  -->
 	<div class="ski-choice">
 		<h2 class="choice"> Getting to your resort - Transport preference?</h2>
 		<dialog id="favDialog">
@@ -69,11 +74,13 @@
 		</menu>
 	</div>
 
+<!-- external link for info-->
 	<div class="ski-choice">
 		<h2 class="choice"> Getting moving ...Ski equipment choices? </h2>
 				<a href="https://www.wedze.co.uk/advice/choosing-skis-are-right-you-a_20934"> Ski considerations </a>
 				<br/><br/>
 
+<!-- HTML5 input selection drop down - needs event tying to it -->
 		<select id="ski-ddown" name="ski choice" multiple="">
 			<option value="All mountain">All Mountain - powder hound seeking adventure off piste</option>
 			<option value="Short turns"> Slalom - Short technical turns on piste</option>
@@ -82,6 +89,7 @@
 		</select>
 	</div>
 
+<!-- HTML5  input defines dropdown list needs event to clear/refresh on submit -->
 	<div class="ski-choice">
 		<label for="mySkis">Choose your ski type:</label>
 		<input list="Skis" id="mySkis" name="mySkis" />
@@ -93,6 +101,7 @@
 		</datalist>
 	</div>
 
+<!-- Table as a challenge to move to responsive -->
 	<div class="costs-table">
 		<table em>
 			<caption> Summary Trip costs and Planning links</caption>
@@ -181,7 +190,7 @@
 			</tbody>
 		</table>
 	</div>
-
+<!-- html reference item -->
 	<address>
 		@White vista,<br>
 		Dreamscape Ave,<br>
