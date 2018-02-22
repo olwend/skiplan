@@ -5,6 +5,7 @@ body {
 /* 	background-color:#87CEFA;
 	background: url(./mountainview.jpg); */
 	background-size: 3000px 4000px;
+	width:  auto;
 	overflow:  scroll;
 }
 
@@ -53,18 +54,23 @@ h1 {
 	color: white;
 	}
 
+address {
+	font-size: 0.8em;
+}
+
 .blog-post {
 	background-color: gray;
-	font-size: 0.8em;
+	font-size: 1em;
 	border: 2px solid black;
-	margin-bottom: 5px;
 	padding: 10px;
 	border-radius: 10px;
 	width: 20%;
 	float:  right;
 	margin-right: 5%;
-	height:  0;
-	padding-bottom: 35%;
+	order:  2;
+	height:  auto;
+	text-align:  center;
+	/* padding-bottom: 35%; */
 }
 
 .choice {
@@ -79,12 +85,13 @@ h1 {
 }
 
 .container {
-	width:  100%;
-	display:  flex;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 a {
-	font-size: 1.2em;
+	font-size: 0.8em;
 	color: #4B0082
 	margin-bottom: 10px;
 	font-weight: bold;
@@ -133,14 +140,13 @@ a {
 
 }
 .costs-table {
-	border:  2px solid #808000;
-	color: :#556B2F;
 	line-height: 2em;
 	margin-top: 20px;
 }
 
 .plan-text {
 	font-style: italic;
+	order:  1;
 }
 
 img, embed,
