@@ -1,7 +1,7 @@
-## Html and CSS page WIP - PURELY HTML/CSS try out of elements. 
+## Html and CSS page WIP - PURELY HTML/CSS desktop try out of elements. 
 
 ## TO DO
-- responsive design to be built up
+- redraw for responsive design to be built up on media queries
 - rewrite CSS with Sass
        
 
