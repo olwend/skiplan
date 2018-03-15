@@ -27,6 +27,8 @@ table {
   border-collapse: collapse; }
 
 caption {
+  font: italic 1.2em;
+  color: #000;
   background-color: #87CEFA;
   padding: 10px; }
 

@@ -46,6 +46,8 @@ table {
 }
 
 caption {
+	font: $font-h2-choice;
+	color: $text-body;
 	background-color:$base_feature_colour;
 	padding: 10px;
 }
