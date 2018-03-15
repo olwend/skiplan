@@ -1,18 +1,109 @@
-$font-stack: 'Alegreya Sans', sans-serif;
 //  text for titles
 $font-title-style: italic bold 2em 'Alegreya Sans', sans-serif;
 $hbase-colour: #f2f2f2;
 //  text for into
 $font-content: italic 1em 'Alegreya Sans', sans-serif;
-$text-colour: #000;
-$base_Background:
 
+// choice items
+$font-h2-choice: italic 1.2em;
+$text-choice-colour: #f2f2f2;
+// body text
+$text-body: #000;
+$base_Background: url(./mountainview.jpg) ;
+$base_feature_colour: #87CEFA;
+
+a {
+	font: $font-content;
+	color: $text-choice-colour;
+	margin-bottom: 10px;
+}
 
 body {
 	font: $font-content;
-	color: $text-colour;
-	background: #87CEFA url(./mountainview.jpg) ;
+	color: $text-body;
+	background: $base_feature_colour $base_Background;
 	background-size: 3000px 4000px;
 	width:  auto;
 	overflow:  scroll;
+}
+
+h1 {
+	font: $font-title-style;
+	color: $hbase-colour;
+}
+
+h2 {
+	font: $font-h2-choice;
+	color: $hbase-colour;
+}
+
+table {
+	color: $hbase-colour;
+	text-shadow: 0.5px 0.5px 0.5px black;
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+caption {
+	background-color:$base_feature_colour;
+	padding: 10px;
+}
+
+th {
+	font-size: 0.5em;
+}
+
+thead {
+	letter-spacing: 2px;
+	text-align: left;
+}
+
+td {
+	padding: 10px;
+	border:  2px dotted black;
+}
+
+address {
+	font-size: 0.8em;
+}
+
+.blog-post {
+	background-color: gray;
+	border: 2px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	width: 20%;
+	float:  right;
+	margin-right: 5%;
+	height:  auto;
+	text-align:  center;
+}
+
+#updateDetails {
+	font: $font-h2-choice;
+	color: #4B0082
+}
+
+.contact-details {
+	font: $font-content;
+	padding: 10px;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#favDialog {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	background-color: $base_feature_colour;
+}
+
+.item-choice {
+	font: $font-content;
+	color: text-choice-colour;
 }

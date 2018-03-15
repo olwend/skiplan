@@ -5,7 +5,7 @@
 	background-size: 3000px 4000px;
 	width:  auto;
 	overflow:  scroll;
-} */ */
+} */
 
 /* h1 {
 	font-size: 2em;
@@ -13,10 +13,10 @@
 	font-weight: bold;
 	color: white;
 	} */
-
+/*
 table {
 	/* font-size: 1em; */
-	color: white;
+/* 	color: white;
 	text-shadow: 0.5px 0.5px 0.5px black;
 	table-layout: fixed;
 	width: 100%;
@@ -39,30 +39,32 @@ thead {
 td {
 	padding: 10px;
 	border:  2px solid black;
-}
+}  */
 
-a {
+/* a {
 	color: #4B0082
+	font-style: italic;
 	margin-bottom: 10px;
 	font-weight: bold;
-}
+} */
 
-address {
+/* address {
 	font-size: 0.8em;
-}
+} */
 
-.button {
+/* .button {
 	font-size: 1.2em;
 	font-style: italic;
 	color:  #4B0082;
 
-}
+} */
 
-.plan-text {
-	font-style: italic;
-	order:  1;
-}
-.blog-post {
+/* .plan-text { */
+/* 	font-style: italic;
+	order:  1; */
+/* } */
+
+/* .blog-post {
 	background-color: gray;
 	border: 2px solid black;
 	padding: 10px;
@@ -72,20 +74,20 @@ address {
 	margin-right: 5%;
 	height:  auto;
 	text-align:  center;
-
 }
-.item-choice {
+ */
+/* .choice {
 	font-size: 1.2em;
 	font-style: italic;
  	color:  white;
 }
-
-.contact-details {
+ */
+/* .contact-details {
 	font-style: italic;
 	padding-bottom: 10px;
-}
+} */
 
-.container {
+/* .container {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -96,8 +98,8 @@ address {
 		top: 350px;
 		left: 100px;
 		background-color:#87CEFA ;
-	}
-
+	} */
+/*
 #favTravel {
 	font-size: 1em;
 	font-style: italic;
@@ -108,15 +110,15 @@ address {
 	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
-}
+} */
 
-#ski-ddown {
+/* #ski-ddown {
 	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
 }
-
-#mySkis {
+ */
+/* #mySkis {
 	font-size: 1em;
 	font-style: italic;
 	color:  #4B0082;
@@ -125,4 +127,4 @@ address {
 img, embed,
 object, video {
 	max-width:  100%;
-}
+} */

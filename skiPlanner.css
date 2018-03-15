@@ -1,128 +1,81 @@
+a {
+  font: italic 1em "Alegreya Sans", sans-serif;
+  color: #f2f2f2;
+  margin-bottom: 10px; }
+
 body {
-	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 1em;
-	background: #87CEFA url(./mountainview.jpg) ;
-	background-size: 3000px 4000px;
-	width:  auto;
-	overflow:  scroll;
-}
+  font: italic 1em "Alegreya Sans", sans-serif;
+  color: #000;
+  background: #87CEFA url(./mountainview.jpg);
+  background-size: 3000px 4000px;
+  width: auto;
+  overflow: scroll; }
 
 h1 {
-	font-size: 2em;
-	font-style:  italic;
-	font-weight: bold;
-	color: white;
-	}
+  font: italic bold 2em "Alegreya Sans", sans-serif;
+  color: #f2f2f2; }
+
+h2 {
+  font: italic 1.2em;
+  color: #f2f2f2; }
 
 table {
-	/* font-size: 1em; */
-	color: white;
-	text-shadow: 0.5px 0.5px 0.5px black;
-	table-layout: fixed;
-	width: 100%;
-	border-collapse: collapse;
-}
+  color: #f2f2f2;
+  text-shadow: 0.5px 0.5px 0.5px black;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse; }
 
 caption {
-	background-color:#87CEFA ;
-}
+  background-color: #87CEFA;
+  padding: 10px; }
 
 th {
-	font-size: 0.5em;
-}
+  font-size: 0.5em; }
 
 thead {
-	letter-spacing: 2px;
-	text-align: left;
-}
+  letter-spacing: 2px;
+  text-align: left; }
 
 td {
-	padding: 10px;
-	border:  2px solid black;
-}
-
-a {
-	color: #4B0082
-	margin-bottom: 10px;
-	font-weight: bold;
-}
+  padding: 10px;
+  border: 2px dotted black; }
 
 address {
-	font-size: 0.8em;
-}
+  font-size: 0.8em; }
 
-.button {
-	font-size: 1.2em;
-	font-style: italic;
-	color:  #4B0082;
-
-}
-
-.plan-text {
-	font-style: italic;
-	order:  1;
-}
 .blog-post {
-	background-color: gray;
-	border: 2px solid black;
-	padding: 10px;
-	border-radius: 10px;
-	width: 20%;
-	float:  right;
-	margin-right: 5%;
-	height:  auto;
-	text-align:  center;
-
-}
-.item-choice {
-	font-size: 1.2em;
-	font-style: italic;
- 	color:  white;
-}
-
-.contact-details {
-	font-style: italic;
-	padding-bottom: 10px;
-}
-
-.container {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-#favDialog {
-		position: absolute;
-		top: 350px;
-		left: 100px;
-		background-color:#87CEFA ;
-	}
-
-#favTravel {
-	font-size: 1em;
-	font-style: italic;
-	color:  #4B0082;
-}
+  background-color: gray;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 20%;
+  float: right;
+  margin-right: 5%;
+  height: auto;
+  text-align: center; }
 
 #updateDetails {
-	font-size: 1em;
-	font-style: italic;
-	color:  #4B0082;
-}
+  font: italic 1.2em;
+  color: #4B0082; }
 
-#ski-ddown {
-	font-size: 1em;
-	font-style: italic;
-	color:  #4B0082;
-}
+.contact-details {
+  font: italic 1em "Alegreya Sans", sans-serif;
+  padding: 10px; }
 
-#mySkis {
-	font-size: 1em;
-	font-style: italic;
-	color:  #4B0082;
-}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
 
-img, embed,
-object, video {
-	max-width:  100%;
-}
+#favDialog {
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  background-color: #87CEFA; }
+
+.item-choice {
+  font: italic 1em "Alegreya Sans", sans-serif;
+  color: text-choice-colour; }
+
+/*# sourceMappingURL=skiPlanner.css.map */
