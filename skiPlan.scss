@@ -1,0 +1,18 @@
+$font-stack: 'Alegreya Sans', sans-serif;
+//  text for titles
+$font-title-style: italic bold 2em 'Alegreya Sans', sans-serif;
+$hbase-colour: #f2f2f2;
+//  text for into
+$font-content: italic 1em 'Alegreya Sans', sans-serif;
+$text-colour: #000;
+$base_Background:
+
+
+body {
+	font: $font-content;
+	color: $text-colour;
+	background: #87CEFA url(./mountainview.jpg) ;
+	background-size: 3000px 4000px;
+	width:  auto;
+	overflow:  scroll;
+}
