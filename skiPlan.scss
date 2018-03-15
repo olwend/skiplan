@@ -1,44 +1,36 @@
-//  text for titles
 $font-title-style: italic bold 2em 'Alegreya Sans', sans-serif;
 $hbase-colour: #f2f2f2;
-//  text for into
 $font-content: italic 1em 'Alegreya Sans', sans-serif;
-
-// choice items
-$font-h2-choice: italic 1.2em;
-$text-choice-colour: #f2f2f2;
-// body text
+$font-h2-choice: italic 1.2em 'Alegreya Sans', sans-serif;
 $text-body: #000;
 $base_Background: url(./mountainview.jpg) ;
 $base_feature_colour: #87CEFA;
 
 a {
 	font: $font-content;
-	color: $text-choice-colour;
+	color: $hbase-colour;
 	margin-bottom: 10px;
 }
 
 body {
+	color: $hbase-colour;
 	font: $font-content;
-	color: $text-body;
 	background: $base_feature_colour $base_Background;
 	background-size: 3000px 4000px;
 	width:  auto;
 	overflow:  scroll;
+	padding: 10px;
 }
 
 h1 {
 	font: $font-title-style;
-	color: $hbase-colour;
 }
 
 h2 {
 	font: $font-h2-choice;
-	color: $hbase-colour;
 }
 
 table {
-	color: $hbase-colour;
 	text-shadow: 0.5px 0.5px 0.5px black;
 	table-layout: fixed;
 	width: 100%;
@@ -47,13 +39,12 @@ table {
 
 caption {
 	font: $font-h2-choice;
-	color: $text-body;
 	background-color:$base_feature_colour;
 	padding: 10px;
 }
 
 th {
-	font-size: 0.5em;
+	font-size: 0.8em;
 }
 
 thead {
@@ -62,7 +53,7 @@ thead {
 }
 
 td {
-	padding: 10px;
+	padding: 5px;
 	border:  2px dotted black;
 }
 
@@ -72,8 +63,7 @@ address {
 
 .blog-post {
 	background-color: gray;
-	border: 2px solid black;
-	padding: 10px;
+	border: 2px dotted black;
 	border-radius: 10px;
 	width: 20%;
 	float:  right;
@@ -84,11 +74,11 @@ address {
 
 #updateDetails {
 	font: $font-h2-choice;
-	color: #4B0082
+	color: #4B0082;
+	padding: 10px;
 }
 
 .contact-details {
-	font: $font-content;
 	padding: 10px;
 }
 
@@ -105,7 +95,3 @@ address {
 	background-color: $base_feature_colour;
 }
 
-.item-choice {
-	font: $font-content;
-	color: text-choice-colour;
-}

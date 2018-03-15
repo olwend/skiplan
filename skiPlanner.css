@@ -4,43 +4,40 @@ a {
   margin-bottom: 10px; }
 
 body {
+  color: #f2f2f2;
   font: italic 1em "Alegreya Sans", sans-serif;
-  color: #000;
   background: #87CEFA url(./mountainview.jpg);
   background-size: 3000px 4000px;
   width: auto;
-  overflow: scroll; }
+  overflow: scroll;
+  padding: 10px; }
 
 h1 {
-  font: italic bold 2em "Alegreya Sans", sans-serif;
-  color: #f2f2f2; }
+  font: italic bold 2em "Alegreya Sans", sans-serif; }
 
 h2 {
-  font: italic 1.2em;
-  color: #f2f2f2; }
+  font: italic 1.2em "Alegreya Sans", sans-serif; }
 
 table {
-  color: #f2f2f2;
   text-shadow: 0.5px 0.5px 0.5px black;
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse; }
 
 caption {
-  font: italic 1.2em;
-  color: #000;
+  font: italic 1.2em "Alegreya Sans", sans-serif;
   background-color: #87CEFA;
   padding: 10px; }
 
 th {
-  font-size: 0.5em; }
+  font-size: 0.8em; }
 
 thead {
   letter-spacing: 2px;
   text-align: left; }
 
 td {
-  padding: 10px;
+  padding: 5px;
   border: 2px dotted black; }
 
 address {
@@ -48,8 +45,7 @@ address {
 
 .blog-post {
   background-color: gray;
-  border: 2px solid black;
-  padding: 10px;
+  border: 2px dotted black;
   border-radius: 10px;
   width: 20%;
   float: right;
@@ -58,11 +54,11 @@ address {
   text-align: center; }
 
 #updateDetails {
-  font: italic 1.2em;
-  color: #4B0082; }
+  font: italic 1.2em "Alegreya Sans", sans-serif;
+  color: #4B0082;
+  padding: 10px; }
 
 .contact-details {
-  font: italic 1em "Alegreya Sans", sans-serif;
   padding: 10px; }
 
 .container {
@@ -75,9 +71,5 @@ address {
   top: 350px;
   left: 100px;
   background-color: #87CEFA; }
-
-.item-choice {
-  font: italic 1em "Alegreya Sans", sans-serif;
-  color: text-choice-colour; }
 
 /*# sourceMappingURL=skiPlanner.css.map */
