@@ -1,6 +1,6 @@
 ## Html and CSS page -  HTML/CSS/Sass desktop try out of elements
 
-## TO DO
+### TO DO
 - redraw for responsive design to be built up on media queries
      
 Illustrates:
