@@ -14,8 +14,15 @@ body {
 
 h1 {
   font: italic bold 2em "Alegreya Sans", sans-serif;
-  padding: 10px; }
-
+  padding: 10px;
+  animation: slidein 2s linear 1s 2 alternate; }
+@keyframes slidein {
+  from {
+    margin-left: 75%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 150%; } }
 h2 {
   font: italic 1.2em "Alegreya Sans", sans-serif; }
 
@@ -48,8 +55,9 @@ address {
   font-size: 0.8em; }
 
 .snow {
-  animation: slidein 3s linear 1s infinite alternate;
-  width: 500px;
+  animation: slidein 4s linear 1s 1 alternate;
+  padding: 10px;
+  width: 300px;
   height: 300px;
   object-fit: cover;
   opacity: 0.2;
