@@ -1,22 +1,26 @@
 a {
-  font: italic 1em "Alegreya Sans", sans-serif;
+  font: italic 1.2em "Alegreya Sans", sans-serif;
   color: #f2f2f2;
   margin-bottom: 10px; }
 
 body {
   color: #f2f2f2;
-  font: italic 1em "Alegreya Sans", sans-serif;
+  font: italic 1.2em "Alegreya Sans", sans-serif;
   background: #87CEFA url(./mountainview.jpg);
-  background-size: 3000px 4000px;
+  background-size: 2000px 3000px;
   width: auto;
   overflow: scroll;
   padding: 10px; }
 
 h1 {
-  font: italic bold 2em "Alegreya Sans", sans-serif; }
+  font: italic bold 2em "Alegreya Sans", sans-serif;
+  padding: 10px; }
 
 h2 {
   font: italic 1.2em "Alegreya Sans", sans-serif; }
+
+ul {
+  padding: 10px; }
 
 table {
   text-shadow: 0.5px 0.5px 0.5px black;
@@ -43,6 +47,20 @@ td {
 address {
   font-size: 0.8em; }
 
+.snow {
+  animation: slidein 3s linear 1s infinite alternate;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.2;
+  float: left; }
+@keyframes slidein {
+  from {
+    margin-left: 75%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 150%; } }
 .blog-post {
   background-color: gray;
   border: 2px dotted black;
@@ -51,6 +69,7 @@ address {
   float: right;
   margin-right: 5%;
   height: auto;
+  padding: 10px;
   text-align: center; }
 
 #updateDetails {

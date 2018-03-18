@@ -1,6 +1,6 @@
 $font-title-style: italic bold 2em 'Alegreya Sans', sans-serif;
 $hbase-colour: #f2f2f2;
-$font-content: italic 1em 'Alegreya Sans', sans-serif;
+$font-content: italic 1.2em 'Alegreya Sans', sans-serif;
 $font-h2-choice: italic 1.2em 'Alegreya Sans', sans-serif;
 $text-body: #000;
 $base_Background: url(./mountainview.jpg) ;
@@ -16,7 +16,7 @@ body {
 	color: $hbase-colour;
 	font: $font-content;
 	background: $base_feature_colour $base_Background;
-	background-size: 3000px 4000px;
+	background-size: 2000px 3000px;
 	width:  auto;
 	overflow:  scroll;
 	padding: 10px;
@@ -24,10 +24,15 @@ body {
 
 h1 {
 	font: $font-title-style;
+	padding: 10px;
 }
 
 h2 {
 	font: $font-h2-choice;
+}
+
+ul {
+	padding: 10px;
 }
 
 table {
@@ -61,14 +66,36 @@ address {
 	font-size: 0.8em;
 }
 
+.snow {
+		@keyframes slidein {
+	  from {
+	    margin-left: 75%;
+	    width: 300%;
+	  }
+
+	  to {
+	    margin-left: 0%;
+	    width: 150%;
+	  }
+	}
+	animation: slidein 3s linear 1s infinite alternate;
+	padding: 10px;
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	opacity: 0.2;
+	float: left;
+}
+
 .blog-post {
 	background-color: gray;
 	border: 2px dotted black;
 	border-radius: 10px;
 	width: 20%;
-	float:  right;
+	float: right;
 	margin-right: 5%;
 	height:  auto;
+	padding: 10px;
 	text-align:  center;
 }
 
@@ -94,4 +121,3 @@ address {
 	left: 100px;
 	background-color: $base_feature_colour;
 }
-
