@@ -12,3 +12,4 @@ Illustrates:
  - JS items for selectors
  - CSS styling set up on elements ,classes and IDs
  - Switched to Sass to use variables thus reducing the css output by 50%
+ - Experiment with animation
